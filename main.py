@@ -164,6 +164,10 @@ class MyApp(App):
             try:
                 
                 try:
+                    self.verticalBox.remove_widget(self.siyanie)
+                except Exception:
+                    None
+                try:
                     self.verticalBox.remove_widget(self.lesnikn)
                 except Exception:
                     None
@@ -402,6 +406,10 @@ class MyApp(App):
 
         elif self.location == 2:
             try:
+                self.verticalBox.remove_widget(self.siyanie)
+            except Exception:
+                None
+            try:
                 self.verticalBox.remove_widget(self.lesnikn)
             except Exception:
                 None
@@ -633,6 +641,10 @@ class MyApp(App):
                 None
         elif self.location == 3:
             try:
+                self.verticalBox.remove_widget(self.siyanie)
+            except Exception:
+                None
+            try:
                 self.verticalBox.remove_widget(self.lesnikn)
             except Exception:
                 None
@@ -859,6 +871,10 @@ class MyApp(App):
             self.vray.bind(on_press=self.vrays)
             self.verticalBox.add_widget(self.vray)
         elif self.location == 4:
+            try:
+                self.verticalBox.remove_widget(self.siyanie)
+            except Exception:
+                None
             try:
                 self.verticalBox.remove_widget(self.lesnikn)
             except Exception:
@@ -1090,6 +1106,10 @@ class MyApp(App):
                 None
         elif self.location == 5:
             try:
+                self.verticalBox.remove_widget(self.siyanie)
+            except Exception:
+                None
+            try:
                 self.verticalBox.remove_widget(self.lesnikn)
             except Exception:
                 None
@@ -1320,6 +1340,10 @@ class MyApp(App):
                 None
     def glavas(self, *args):
         try:
+            self.verticalBox.remove_widget(self.siyanie)
+        except Exception:
+            None
+        try:
             self.verticalBox.remove_widget(self.glavatext)
         except Exception:
             None
@@ -1372,6 +1396,10 @@ class MyApp(App):
         except Exception:
             None
     def mudrezs(self, *args):
+        try:
+            self.verticalBox.remove_widget(self.siyanie)
+        except Exception:
+            None
         try:
             self.verticalBox.remove_widget(self.glavatext)
         except Exception:
@@ -1426,6 +1454,10 @@ class MyApp(App):
             None
     def dom_sovs(self, *args):
         try:
+            self.verticalBox.remove_widget(self.siyanie)
+        except Exception:
+            None
+        try:
             self.verticalBox.remove_widget(self.glavatext)
         except Exception:
             None
@@ -1478,6 +1510,10 @@ class MyApp(App):
             None
     def yamas(self, *args):
         try:
+            self.verticalBox.remove_widget(self.siyanie)
+        except Exception:
+            None
+        try:
             self.verticalBox.remove_widget(self.glavatext)
         except Exception:
             None
@@ -1529,6 +1565,10 @@ class MyApp(App):
             None
         
     def kolodezs(self, *args):
+        try:
+            self.verticalBox.remove_widget(self.siyanie)
+        except Exception:
+            None
         try:
             self.verticalBox.remove_widget(self.glavatext)
         except Exception:
@@ -1585,6 +1625,10 @@ class MyApp(App):
             None  
     def dochs(self, *args):
         try:
+            self.verticalBox.remove_widget(self.siyanie)
+        except Exception:
+            None
+        try:
             self.verticalBox.remove_widget(self.soputchtext)
         except Exception:
             None
@@ -1637,6 +1681,10 @@ class MyApp(App):
         except Exception:
             None 
     def kor_demonovs(self, *args):
+        try:
+            self.verticalBox.remove_widget(self.siyanie)
+        except Exception:
+            None
         try:
             self.verticalBox.remove_widget(self.soputchtext)
         except Exception:
@@ -1691,6 +1739,10 @@ class MyApp(App):
             None 
     def turmas(self, *args):
         try:
+            self.verticalBox.remove_widget(self.siyanie)
+        except Exception:
+            None
+        try:
             self.verticalBox.remove_widget(self.soputchtext)
         except Exception:
             None
@@ -1744,6 +1796,10 @@ class MyApp(App):
         
     def vrays(self, *args):
         try:
+            self.verticalBox.remove_widget(self.siyanie)
+        except Exception:
+            None
+        try:
             self.verticalBox.remove_widget(self.soputchtext)
         except Exception:
             None
@@ -1796,6 +1852,10 @@ class MyApp(App):
         except Exception:
             None 
     def soputchs(self, *args):
+        try:
+            self.verticalBox.remove_widget(self.siyanie)
+        except Exception:
+            None
         try:
             self.verticalBox.remove_widget(self.soputchtext)
         except Exception:
@@ -1851,6 +1911,10 @@ class MyApp(App):
         
     def posochs(self, *args):
         try:
+            self.verticalBox.remove_widget(self.siyanie)
+        except Exception:
+            None
+        try:
             self.verticalBox.remove_widget(self.sianyetext)
         except Exception:
             None
@@ -1905,6 +1969,10 @@ class MyApp(App):
         
     def kapsulas(self, *args):
         try:
+            self.verticalBox.remove_widget(self.siyanie)
+        except Exception:
+            None
+        try:
             self.verticalBox.remove_widget(self.sianyetext)
         except Exception:
             None
@@ -1958,6 +2026,10 @@ class MyApp(App):
             None
     def sobranie_rays(self, *args):
         try:
+            self.verticalBox.remove_widget(self.siyanie)
+        except Exception:
+            None
+        try:
             self.verticalBox.remove_widget(self.sianyetext)
         except Exception:
             None
@@ -2010,6 +2082,10 @@ class MyApp(App):
             None 
     def umerznaks(self, *args):
         try:
+            self.verticalBox.remove_widget(self.siyanie)
+        except Exception:
+            None
+        try:
             self.verticalBox.remove_widget(self.sianyetext)
         except Exception:
             None
@@ -2060,6 +2136,10 @@ class MyApp(App):
         except Exception:
             None 
     def siyanies(self, *args):
+        try:
+            self.verticalBox.remove_widget(self.siyanie)
+        except Exception:
+            None
         try:
             self.verticalBox.remove_widget(self.sianyetext)
         except Exception:
@@ -2115,6 +2195,10 @@ class MyApp(App):
         
     def gnoms(self, *args):
         try:
+            self.verticalBox.remove_widget(self.siyanie)
+        except Exception:
+            None
+        try:
             self.verticalBox.remove_widget(self.vagontext)
         except Exception:
             None
@@ -2163,6 +2247,10 @@ class MyApp(App):
         except Exception:
             None
     def avanturs(self, *args):
+        try:
+            self.verticalBox.remove_widget(self.siyanie)
+        except Exception:
+            None
         try:
             self.verticalBox.remove_widget(self.vagontext)
         except Exception:
@@ -2217,6 +2305,10 @@ class MyApp(App):
             None
     def samovars(self, *args):
         try:
+            self.verticalBox.remove_widget(self.siyanie)
+        except Exception:
+            None
+        try:
             self.verticalBox.remove_widget(self.vagontext)
         except Exception:
             None
@@ -2268,6 +2360,10 @@ class MyApp(App):
         except Exception:
             None
     def slomports(self, *args):
+        try:
+            self.verticalBox.remove_widget(self.siyanie)
+        except Exception:
+            None
         try:
             self.verticalBox.remove_widget(self.vagontext)
         except Exception:
@@ -2322,6 +2418,10 @@ class MyApp(App):
         
     def vagons(self, *args):
         try:
+            self.verticalBox.remove_widget(self.siyanie)
+        except Exception:
+            None
+        try:
             self.verticalBox.remove_widget(self.vagontext)
         except Exception:
             None
@@ -2374,6 +2474,10 @@ class MyApp(App):
             None
     def lesniks(self, *args):
         try:
+            self.verticalBox.remove_widget(self.siyanie)
+        except Exception:
+            None
+        try:
             self.verticalBox.remove_widget(self.lesnikn)
         except Exception:
             None
@@ -2422,6 +2526,10 @@ class MyApp(App):
             None
     def doms(self, *args):
         try:
+            self.verticalBox.remove_widget(self.siyanie)
+        except Exception:
+            None
+        try:
             self.verticalBox.remove_widget(self.lesnikn)
         except Exception:
             None
@@ -2469,6 +2577,10 @@ class MyApp(App):
             None
 
     def drevos(self, *args):
+        try:
+            self.verticalBox.remove_widget(self.siyanie)
+        except Exception:
+            None
         try:
             self.verticalBox.remove_widget(self.lesnikn)
         except Exception:
@@ -2522,6 +2634,10 @@ class MyApp(App):
 
     def tops(self, *args):
         try:
+            self.verticalBox.remove_widget(self.siyanie)
+        except Exception:
+            None
+        try:
             self.verticalBox.remove_widget(self.lesnikn)
         except Exception:
             None
@@ -2573,6 +2689,10 @@ class MyApp(App):
         
 
     def ozs(self, *args):
+        try:
+            self.verticalBox.remove_widget(self.siyanie)
+        except Exception:
+            None
         try:
             self.verticalBox.remove_widget(self.lesnikn)
         except Exception:
